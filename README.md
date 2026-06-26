@@ -62,7 +62,7 @@ RSS Feeds (feedparser)
 
 ### 1. Clone / download
 ```bash
-git clone https://github.com/yourname/newspulse.git
+git clone https://github.com/yourname/News-Sentiment-Analyzer.git
 cd newspulse
 ```
 
@@ -95,7 +95,8 @@ news_sentiment/
 │   └── insights.py         # Page 4: Deep-dive + export
 └── utils/
     ├── data.py             # RSS fetch, sentiment scoring, caching
-    ├── nlp.py              # TF-IDF, K-Means, PCA, keywords
+    ├── nlp.py             # TF-IDF, K-Means, PCA, keywords
+    ├── mock_data.py       #mock data for demo/testing when RSS feeds are blocked
     └── charts.py           # All Plotly chart builders
 ```
 
@@ -177,17 +178,6 @@ Top keywords per cluster are extracted from K-Means centroid vectors.
 | Email alerts for sentiment spikes | Easy |
 | Historical trend database (SQLite) | Medium |
 | Deploy to Streamlit Cloud | Easy |
-
----
-
-## ☁️ Deployment (Streamlit Cloud)
-
-1. Push to GitHub
-2. Go to [share.streamlit.io](https://share.streamlit.io)
-3. Connect repo → set `app.py` as entry point
-4. Click **Deploy**
-
-Streamlit Cloud auto-installs from `requirements.txt`.
 
 ---
 
