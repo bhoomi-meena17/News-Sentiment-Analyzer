@@ -88,7 +88,7 @@ news_sentiment/
 ├── requirements.txt
 ├── .streamlit/
 │   └── config.toml         # Theme config
-├── pages/
+├── views/
 │   ├── dashboard.py        # Page 1: Live feed overview
 │   ├── search.py           # Page 2: Paste-your-own-text analyser
 │   ├── clustering.py       # Page 3: TF-IDF + K-Means topic map
