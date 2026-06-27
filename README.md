@@ -7,7 +7,7 @@
 ## 🚀 Live Demo
 
 ```bash
-streamlit run app.py
+[https://news-sentiment-analyzer-rh5cbn6ruq397bboynfctn.streamlit.app]
 ```
 
 ---
