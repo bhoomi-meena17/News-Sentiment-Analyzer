@@ -4,10 +4,10 @@
 
 ---
 
-## 🚀 Live Demo
+## 🚀 Deployed App
 
 ```bash
-[https://news-sentiment-analyzer-rh5cbn6ruq397bboynfctn.streamlit.app]
+https://news-sentiment-analyzer-rh5cbn6ruq397bboynfctn.streamlit.app
 ```
 
 ---
